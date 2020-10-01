@@ -15,4 +15,4 @@
 <img src="https://github.com/milan400/RekognitionS3/blob/master/architecture.png"/>
 
 I have also made same application without using S3 bucket
-  * Github Repo: https://github.com/milan400?tab=repositories
+  * Github Repo: https://github.com/milan400/AWS-Rekognition
