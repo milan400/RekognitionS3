@@ -16,3 +16,8 @@
 
 I have also made same application without using S3 bucket
   * Github Repo: https://github.com/milan400/AWS-Rekognition
+
+-------------------------------------------------------------------------------------------------
+Machine Learning Scientist Course:
+
+<img src="https://github.com/milan400/RekognitionS3/blob/master/machinelearning.png"/>
