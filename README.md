@@ -12,3 +12,4 @@
 
 # Application Overall Architecture:
 
+<img src="https://github.com/milan400/RekognitionS3/blob/master/architecture.png"/>
