@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 import os, os.path
-import numpy as np
 import shutil
 
 
@@ -16,7 +15,6 @@ import boto3
 import json
 import os
 
-import matplotlib.pyplot as plt
 import io
 
 from time import sleep
