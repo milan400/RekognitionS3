@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Face Analysis</title>
+   <meta charset="utf-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+
+   body{   
+
+         background-image: linear-gradient(to right, #052137, #433554, #7d4960, #a9675e, #bc935f);
+         padding: 90px;
+   }
+
+   #mainall{
+      border-radius: 20px;
+         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+         position:relative;
+          color: white;
+          padding:auto;
+
+          background-image: linear-gradient(to right, #052137, #433554, #7d4960, #a9675e, #bc935f);
+          
+      
+   }
+
+   
+
+   #text_title{
+      color:  #e0f7fa ;
+      text-align: center;
+      font-family: "Times New Roman", Times, serif;
+      
+   }
+
+   #body_info{
+      display: block;
+      margin-top: 20px;
+      margin-left: 150px;
+      
+   }
+
+   #Image_block{
+      border-radius: 20px;
+         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+         position:relative;
+          color: white;
+          padding:auto;
+          background-image: url('../static/background.png');
+          max-width: 400px;
+          height: 400px;
+   }
+
+   #Info_block{
+      border-radius: 20px;
+         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+         position:relative;
+          color: white;
+          padding:auto;
+          background-image: url('../static/background.png');
+          max-width: 400px;
+          height: 400px;
+          margin-left: 5px;
+
+   }
+
+   #predict_button{
+      border-radius: 20px;
+         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+         position:relative;
+          color: white;
+          padding:auto;
+          background-image: url('../static/background.png');
+          max-width: 450px;
+          height: 200px;
+          margin-left: 320px;
+          margin-top: 20px;
+          margin-bottom: 100px;
+
+   }
+
+   #browse{
+      margin-top: 200px;
+   }
+
+
+   #photo_margin{
+    margin-top: 28px;
+   }
+
+   #note, #descp{
+    color: red;
+    margin-left: 20px;
+   }
+
+   #info_infos{
+    margin-top: 100px;
+    margin-left: 50px;
+   }
+
+   #descp1, #descp2{
+      color: white;
+      margin-left: 20px;
+    }
+
+  </style>
+</head>
+<body>
+   <div class="container" id='mainall'>
+      <div class="row" id='title_info'>
+         <h1 id="text_title">Face Analysis</h1>
+      </div>
+
+      <div class='row' id='body_info'>
+         <div class="col-xs-5" id='Image_block'>
+           <img id='photo_margin' width = "370" height="350"  src="{{image_names}}">
+         </div>
+
+         <div class="col-xs-5" id="Info_block">
+          <div id='info_infos'>
+            <p>Gender: {{gender}}</p>
+            <p>Age Range: From {{low}} to {{high}}</p>
+            <p>Emotion: {{emotion}}</p>
+            <p>Eyeglass: {{eyeglass}}</p>
+          </div>
+            
+         </div>
+      </div>
+
+      <div class="row" id="predict_button">
+         <h2 id='note'>Note:</h2>
+         <p id="descp1">1. Browse and Select Image</p>
+          <p id="descp2">2. Click Upload</p>
+         <p id="descp">The Uploaded Image will be removed after certain time</p>
+      </div>
+   </div>
+
+
+
+</body>
+</html>
