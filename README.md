@@ -32,4 +32,4 @@ I have also made same application without using S3 bucket
 -------------------------------------------------------------------------------------------------
 Machine Learning Scientist Course:
 
-<img src="https://github.com/milan400/RekognitionS3/blob/master/images/pasedimage"/>
+<img src="https://github.com/milan400/RekognitionS3/blob/master/machinelearning.png"/>
