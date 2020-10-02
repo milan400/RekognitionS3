@@ -8,7 +8,8 @@
   1. Clone the repo
   2. Download AWS CLI and setup it with your account
   3. Install requirements from requirements.txt file
-  4. Run the flask server
+  4. Configure AWS S3 and place bucket name in app.py
+  5. Run the flask server
 
 # Application Overall Architecture:
 
