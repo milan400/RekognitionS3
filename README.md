@@ -21,7 +21,7 @@ I have also made same application without using S3 bucket
 # Example
 
 1.Input Image
-<img src="https://github.com/milan400/RekognitionS3/blob/master/images/input.png"/>
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/pasedimage"/>
 
 2. Input Frontened
 <img src="https://github.com/milan400/RekognitionS3/blob/master/images/input.png"/>
