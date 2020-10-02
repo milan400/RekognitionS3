@@ -13,12 +13,23 @@
 
 # Application Overall Architecture:
 
-<img src="https://github.com/milan400/RekognitionS3/blob/master/architecture.png"/>
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/architecture.png"/>
 
 I have also made same application without using S3 bucket
   * Github Repo: https://github.com/milan400/AWS-Rekognition
+-------------------------------------------------------------------------------------------------
+# Example
+
+1.Input Image
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/input.png"/>
+
+2. Input Frontened
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/input.png"/>
+
+3. Output Frontened
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/output.png"/>
 
 -------------------------------------------------------------------------------------------------
 Machine Learning Scientist Course:
 
-<img src="https://github.com/milan400/RekognitionS3/blob/master/machinelearning.png"/>
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/pasedimage"/>
