@@ -22,7 +22,7 @@ I have also made same application without using S3 bucket
 
 1.Input Image
 
-<img src="https://github.com/milan400/RekognitionS3/blob/master/images/pasedimage"/>
+<img src="https://github.com/milan400/RekognitionS3/blob/master/images/ronaldo.png"/>
 
 2. Input Frontened
 
